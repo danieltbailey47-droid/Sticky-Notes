@@ -1,0 +1,51 @@
+body {
+    background-color: steelblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+}
+
+main {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.notes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.notecard {
+    background-color: #ffeb3b;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.notecard h3 {
+    margin-top: 0;
+}
+
+.add-note-btn {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #ffeb3b;
+    color: #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+
